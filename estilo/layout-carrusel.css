@@ -1,0 +1,50 @@
+/* Richard Roque Del Rio - UO302698 */
+/* Layout del carrusel de imágenes de MotoGP Desktop */
+
+/* ============================================== */
+/* Especificidad: (0,0,3,0) */
+/* Contenedor principal del carrusel */
+/* ============================================== */
+main>section:first-of-type {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    margin: 1em auto;
+    max-width: 80%;
+}
+
+/* ============================================== */
+/* Especificidad: (0,0,3,1) */
+/* Ajuste de la imagen dentro del carrusel */
+/* ============================================== */
+main>section:first-of-type img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5em;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+
+/* ============================================== */
+/* Especificidad: (0,0,3,0) */
+/* Título del carrusel */
+/* ============================================== */
+main>section:first-of-type h2 {
+    text-align: center;
+    font-size: 1.4em;
+    margin-bottom: 0.5em;
+}
+
+/* ============================================== */
+/* Redefinición mediante media queries */
+/* Propiedades redefinidas: width, flex-direction */
+/* ============================================== */
+@media (max-width: 48em) {
+
+    /* Especificidad: (0,0,4,1) */
+    article h2+img {
+        width: 100%;
+        height: auto;
+    }
+}

@@ -1,0 +1,71 @@
+/* Richard Roque Del Rio - UO302698 */
+
+/* Estilos generales del proyecto MotoGP-Desktop */
+
+/* ========================================== */
+/* Especificidad: 001 */
+/* ========================================== */
+body {
+    font-family: "Trebuchet MS", "Gill Sans", Arial, sans-serif;
+    background-color: #ffffff;
+    /* Fondo blanco */
+    color: #000000;
+    /* Texto negro */
+}
+
+/* ========================================== */
+/* Especificidad: 012 */
+/* ========================================== */
+body>p>strong {
+    font-size: 1.1em;
+}
+
+/* ========================================== */
+/* Especificidad: 001 */
+/* Herencia: background-color hereda del body; color se sobrescribe */
+/* ========================================== */
+h1 {
+    color: #ffffff;
+    /* blanco – máximo contraste en fondos oscuros */
+}
+
+/* ========================================== */
+/* Especificidad: 001 */
+/* Herencia: background-color no hereda; color sí, se sobrescribe */
+/* ========================================== */
+header {
+    background-color: #000000;
+    /* Negro */
+    color: #ffffff;
+    /* Blanco — máximo contraste */
+}
+
+/* ========================================== */
+/* Especificidad: 002 */
+/* ========================================== */
+header a {
+    text-decoration: none;
+    color: inherit;
+    /* hereda blanco del header */
+}
+
+/* ========================================== */
+/* Especificidad: 001 */
+/* Herencia: background-color no hereda; color sí, se sobrescribe */
+/* ========================================== */
+nav {
+    background-color: #f2f2f2;
+    /* Gris claro accesible */
+    color: #000000;
+    /* Negro */
+}
+
+/* ========================================== */
+/* Especificidad: 001 */
+/* Herencia: background-color hereda; color sobrescribe */
+/* Comentario: selector de clase heredado del material base, no creado nuevo */
+/* ========================================== */
+.active {
+    color: #000000;
+    /* Negro con contraste sobre gris claro */
+}

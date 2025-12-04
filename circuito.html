@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8" />
+	<link rel="icon" href="multimedia/favicon48px.ico">
+
+	<title>MotoGP Desktop - Circuito</title>
+
+	<meta name="author" content="Richard Roque" />
+	<meta name="description" content="Información del circuito MotoGP usando API File de HTML5" />
+	<meta name="keywords" content="MotoGP, circuito, información, HTML5 File API" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+	<link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+</head>
+
+<body>
+
+	<header>
+		<h1><a href="index.html">MotoGP Desktop</a></h1>
+		<nav>
+			<a href="index.html" title="Página principal">Inicio</a>
+			<a href="piloto.html" title="Información del piloto">Piloto</a>
+			<a class="active" href="circuito.html" title="Información del circuito">Circuito</a>
+			<a href="meteorología.html" title="Información de la meteorología">Meteorología</a>
+			<a href="clasificaciones.php" title="Información de las clasificaciones">Clasificaciones</a>
+			<a href="juegos.html" title="Juegos">Juegos</a>
+			<a href="ayuda.html" title="Ayuda">Ayuda</a>
+		</nav>
+	</header>
+
+	<main>
+
+		<p>Estás en: <a href="index.html">Inicio</a> | <strong>Circuito</strong></p>
+
+		<!-- SECCIÓN 1: Cargar InfoCircuito.html -->
+		<section>
+			<h2>Cargar archivo del circuito</h2>
+			<input type="file" accept=".html" />
+		</section>
+
+		<!-- SECCIÓN 2: Mostrar InfoCircuito -->
+		<section>
+			<h2>Información del circuito cargado</h2>
+		</section>
+
+		<!-- SECCIÓN 3: Cargar SVG -->
+		<section>
+			<h2>Cargar altimetría (SVG)</h2>
+			<input type="file" accept=".svg" />
+		</section>
+
+		<!-- SECCIÓN 4: Mostrar SVG -->
+		<section>
+			<h2>Altimetría del circuito</h2>
+		</section>
+
+
+		<section>
+			<h2>Cargar circuito (KML)</h2>
+			<input type="file" accept=".kml" />
+		</section>
+		
+		<section>
+			<h2>Mapa del circuito</h2>
+			<div></div> <!-- solo se permite div para mapas -->
+		</section>
+
+	</main>
+
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+	<script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAWT72x-CeIFRPLXYDYKI6RPO540orh0p4&callback=inicializarMapa">
+	</script>
+	<script src="js/circuito.js"></script>
+
+
+
+	<script>
+		const circuito = new Circuito();   // Maneja InfoCircuito.html
+		const cargadorSVG = new CargadorSVG();  // Maneja altimetria.svg
+		const cargadorKML = new CargadorKML();
+		const mapaCircuito = new MapaCircuito();
+	</script>
+
+</body>
+
+</html>

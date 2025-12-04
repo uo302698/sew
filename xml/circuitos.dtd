@@ -1,0 +1,77 @@
+<!ELEMENT circuitos (circuito+)>
+
+<!ELEMENT circuito (nombreCircuito, longitudCircuito,
+            anchuraMedia, fechaCarrera, horaEsp, numeroVueltas, localidadProxima,
+            paisDelCircuito, nombrePatrocinadorP , referencias, galeriaFotos, galeriaVideos ,
+            puntoOrigen, tramos, vencedorCarrera, clasificados )>
+
+<!ELEMENT nombreCircuito (#PCDATA)>
+
+<!ELEMENT longitudCircuito (#PCDATA)>
+<!ATTLIST longitudCircuito unidad CDATA #REQUIRED>
+
+
+<!ELEMENT anchuraMedia (#PCDATA)>
+<!ATTLIST anchuraMedia unidad CDATA #REQUIRED>
+
+<!ELEMENT fechaCarrera (#PCDATA)>
+
+<!ELEMENT horaEsp (#PCDATA)>
+
+<!ELEMENT numeroVueltas (#PCDATA)>
+
+<!ELEMENT localidadProxima (#PCDATA)>
+
+<!ELEMENT paisDelCircuito (#PCDATA)>
+
+<!ELEMENT nombrePatrocinadorP (#PCDATA)>
+
+<!ELEMENT referencias (referencia+)>
+
+<!ELEMENT referencia (#PCDATA)>
+<!ATTLIST referencia url CDATA #REQUIRED>
+
+<!ELEMENT galeriaFotos (fotos+)>
+
+<!ELEMENT fotos (#PCDATA)>
+<!ATTLIST fotos nombre CDATA #REQUIRED>
+
+<!ELEMENT galeriaVideos (videos+)>
+
+<!ELEMENT videos (#PCDATA)>
+<!ATTLIST videos nombre CDATA #REQUIRED>
+
+<!ELEMENT puntoOrigen (latitud, longitud, altitud)>
+
+<!ELEMENT latitud (#PCDATA)>
+<!ELEMENT longitud (#PCDATA)>
+<!ELEMENT altitud (#PCDATA)>
+ 
+
+<!ELEMENT tramos (tramo+)>
+
+<!ELEMENT tramo (distanciaTramoEnMetros, coordenadaFinalTramo, numeroSectorCircuito)>
+
+
+<!ELEMENT distanciaTramoEnMetros (#PCDATA)>
+<!ATTLIST distanciaTramoEnMetros unidad CDATA #REQUIRED>
+
+<!ELEMENT coordenadaFinalTramo (latitudTramo, longitudTramo , altitudTramo)>
+
+<!ELEMENT latitudTramo (#PCDATA)>
+<!ELEMENT longitudTramo (#PCDATA)>
+<!ELEMENT altitudTramo (#PCDATA)>
+
+
+<!ELEMENT numeroSectorCircuito (#PCDATA)>
+
+<!ELEMENT vencedorCarrera (nombreVencedor ,tiempoVencedor)>
+
+<!ELEMENT nombreVencedor (#PCDATA)>
+<!ELEMENT tiempoVencedor (#PCDATA)>
+
+
+<!ELEMENT clasificados (clasificado+)>
+
+<!ELEMENT clasificado (#PCDATA)>
+<!ATTLIST clasificado posicion CDATA #REQUIRED>

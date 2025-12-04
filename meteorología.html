@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8" />
+	<title>MotoGP Desktop - Meteorología</title>
+	<link rel="icon" href="multimedia/favicon48px.ico" />
+
+	<meta name="author" content="Richard Roque" />
+	<meta name="description"
+		content="Consulta de la meteorología del circuito de MotoGP mediante el servicio web Open-Meteo." />
+	<meta name="keywords" content="MotoGP, meteorología, Open-Meteo, clima, Buriram, circuito" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<!-- Hojas de estilo -->
+	<link rel="stylesheet" href="estilo/estilo.css" />
+	<link rel="stylesheet" href="estilo/layout.css" />
+
+	<!-- Librería jQuery permitida -->
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+	<!-- Script principal del proyecto -->
+	<script src="js/ciudad.js"></script>
+</head>
+
+<body>
+	<header>
+		<h1><a href="index.html">MotoGP Desktop</a></h1>
+		<nav>
+			<a href="index.html" title="Página principal">Inicio</a>
+			<a href="piloto.html" title="Información del piloto">Piloto</a>
+			<a href="circuito.html" title="Información del circuito">Circuito</a>
+			<a class="active" href="meteorología.html" title="Información de la meteorología">Meteorología</a>
+			<a href="clasificaciones.php" title="Clasificaciones">Clasificaciones</a>
+			<a href="juegos.html" title="Juegos">Juegos</a>
+			<a href="ayuda.html" title="Ayuda">Ayuda</a>
+		</nav>
+	</header>
+
+	<main>
+		<!-- Migas de navegación -->
+		<p>Estás en:
+			<a href="index.html">Inicio</a> |
+			<strong>Meteorología</strong>
+		</p>
+
+		<!-- Sección para la información de la ciudad -->
+		<section></section>
+
+		<!-- Sección para los datos meteorológicos -->
+		<section></section>
+	</main>
+
+	<!-- Inicialización de la lógica de meteorología -->
+	<script>
+		$(document).ready(() => {
+			const buriram = new Ciudad("Buriram", "Tailandia", "buriramense");
+			buriram.rellenarDatos(300000, 14.9941, 103.1039);
+
+			// Sección 1: información general
+			const seccionCiudad = $("main > section").first();
+			const articuloCiudad = $("<article>");
+			articuloCiudad.append($("<h2>").text(`${buriram.obtenerNombre()}, ${buriram.obtenerPais()}`));
+			articuloCiudad.append(buriram.obtenerInformacionSecundaria());
+			articuloCiudad.append(buriram.obtenerParrafoCoordenadas());
+			seccionCiudad.append(articuloCiudad);
+
+			// Sección 2: datos meteorológicos
+			buriram.getMeteorologiaCarrera();
+			buriram.getMeteorologiaEntrenos();
+		});
+	</script>
+</body>
+
+</html>

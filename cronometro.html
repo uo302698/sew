@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Cronómetro - MotoGP Desktop</title>
+
+  <link rel="stylesheet" type="text/css" href="estilo/estilo.css">
+  <link rel="stylesheet" type="text/css" href="estilo/layout.css">
+  <script src="js/cronometro.js"></script>
+</head>
+
+<body>
+  <header>
+  
+      <h1><a href="index.html">MotoGP Desktop</a></h1>
+      <nav>
+        <a href="index.html">Inicio</a>
+        <a href="piloto.html">Piloto</a>
+        <a href="circuito.html">Circuito</a>
+        <a href="meteorología.html">Meteorología</a>
+        <a href="clasificaciones.php">Clasificaciones</a>
+        <a href="juegos.html" aria-current="page">Juegos</a>
+        <a href="ayuda.html">Ayuda</a>
+      </nav>
+
+  </header>
+
+<main>
+  <p>Estás en: <a href="juegos.html">Juegos</a> | <strong> Cronometro </strong></p>
+
+  <h2>Cronómetro</h2>
+
+  
+    <p>00:00.0</p>
+
+    <button onclick="cronometro.arrancar()">Arrancar</button>
+    <button onclick="cronometro.parar()">Parar</button>
+    <button onclick="cronometro.reiniciar()">Reiniciar</button>
+  
+</main>
+
+
+  <script>
+    const cronometro = new Cronometro();
+  </script>
+</body>
+
+</html>

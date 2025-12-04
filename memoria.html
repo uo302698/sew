@@ -1,0 +1,112 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>MotoGP Desktop - Juego de memoria</title>
+    <link rel="icon" href="multimedia/favicon48px.ico" />
+
+    <meta name="author" content="Richard Roque" />
+    <meta name="description" content="Juego de memoria con cartas del proyecto MotoGP Desktop." />
+    <meta name="keywords" content="MotoGP, juego, memoria, cartas" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Hojas de estilo -->
+    <link rel="stylesheet" href="estilo/estilo.css" />
+    <link rel="stylesheet" href="estilo/layout.css" />
+    <link rel="stylesheet" href="estilo/cards.css" />
+    <link rel="stylesheet" href="estilo/layout-cards.css" />
+
+    <!-- Cronómetro -->
+    <script src="js/cronometro.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1><a href="index.html">MotoGP Desktop</a></h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="piloto.html">Piloto</a>
+            <a href="circuito.html">Circuito</a>
+            <a href="meteorología.html">Meteorología</a>
+            <a href="clasificaciones.php">Clasificaciones</a>
+            <a class="active" href="juegos.html" >Juegos</a>
+            <a href="ayuda.html">Ayuda</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Migas de navegación -->
+        <p>
+            Estás en:
+            <a href="juegos.html">Juegos</a> |
+            <strong>Memoria</strong>
+        </p>
+
+        <h2>Juego de memoria con cartas</h2>
+
+        <!-- Cronómetro -->
+        <p>00:00.0</p>
+
+        <!-- Cartas (pares duplicados) -->
+        <section>
+            <article data-element="Honda">
+                <h3>Tarjeta</h3>
+                <img src="multimedia/logos/honda.svg" alt="Honda" />
+            </article>
+            <article data-element="Honda">
+                <h3>Tarjeta</h3>
+                <img src="multimedia/logos/honda.svg" alt="Honda" />
+            </article>
+
+            <article data-element="Yamaha">
+                <h3>Tarjeta</h3>
+                <img src="multimedia/logos/yamaha.svg" alt="Yamaha" />
+            </article>
+            <article data-element="Yamaha">
+                <h3>Tarjeta</h3>
+                <img src="multimedia/logos/yamaha.svg" alt="Yamaha" />
+            </article>
+
+            <article data-element="Ducati">
+                <h3>Tarjeta</h3>
+                <img src="multimedia/logos/ducati.svg" alt="Ducati" />
+            </article>
+            <article data-element="Ducati">
+                <h3>Tarjeta</h3>
+                <img src="multimedia/logos/ducati.svg" alt="Ducati" />
+            </article>
+
+            <article data-element="KTM">
+                <h3>Tarjeta</h3>
+                <img src="multimedia/logos/ktm.svg" alt="KTM" />
+            </article>
+            <article data-element="KTM">
+                <h3>Tarjeta</h3>
+                <img src="multimedia/logos/ktm.svg" alt="KTM" />
+            </article>
+
+            <article data-element="Aprilia">
+                <h3>Tarjeta</h3>
+                <img src="multimedia/logos/aprilia.svg" alt="Aprilia" />
+            </article>
+            <article data-element="Aprilia">
+                <h3>Tarjeta</h3>
+                <img src="multimedia/logos/aprilia.svg" alt="Aprilia" />
+            </article>
+
+            <article data-element="MotoGP">
+                <h3>Tarjeta</h3>
+                <img src="multimedia/logos/motogp.svg" alt="MotoGP" />
+            </article>
+            <article data-element="MotoGP">
+                <h3>Tarjeta</h3>
+                <img src="multimedia/logos/motogp.svg" alt="MotoGP" />
+            </article>
+        </section>
+    </main>
+
+    <script src="js/memoria.js"></script>
+</body>
+
+</html>

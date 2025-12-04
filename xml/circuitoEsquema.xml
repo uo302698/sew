@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<circuito xmlns="http://www.uniovi.es"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.uniovi.es circuito.xsd">
+
+    <nombreCircuito>Chang International Circuit</nombreCircuito>
+
+    <longitudCircuito unidad="m">4554</longitudCircuito>
+
+    <anchuraMedia unidad="m">12</anchuraMedia>
+
+    <fechaCarrera>2025-03-02</fechaCarrera>
+
+    <horaEsp>09:00:00</horaEsp>
+
+    <numeroVueltas>26</numeroVueltas>
+
+    <localidadProxima>Buriram</localidadProxima>
+
+    <paisDelCircuito>Tailandia</paisDelCircuito>
+
+    <nombrePatrocinadorP>Chang</nombrePatrocinadorP>
+
+    <referencias>
+        <referencia url="https://en.wikipedia.org/wiki/Chang_International_Circuit"> Wikipedia —
+            Chang International Circuit </referencia>
+        <referencia url="https://www.motogp.com/en/calendar"> MotoGP — 2025 Calendar </referencia>
+        <referencia url="https://www.buriramunited.com/"> Buriram United — Circuit information </referencia>
+    </referencias>
+
+
+    <galeriaFotos>
+
+        <fotos nombre="multimedia/Chang_International_Circuit.jpg"> Foto 1 del circuito </fotos>
+        <fotos nombre="multimedia/changMeta.jpg"> Foto 2 del circuito </fotos>
+        <fotos nombre="multimedia/Img.jpg"> Foto 3 del circuito</fotos>
+    </galeriaFotos>
+
+    <galeriaVideos>
+
+        <videos nombre="multimedia/Behind the Apex - Chang International Circuit.mp4"> Video 1 del
+            circuito </videos>
+
+
+    </galeriaVideos>
+
+    <puntoOrigen>
+
+        
+            <latitud>14.9586657</latitud>
+            <longitud>103.0844062</longitud>
+            <altitud>180.084474</altitud>
+        
+
+    </puntoOrigen>
+    <tramos>
+
+        <tramo>
+            <distanciaTramoEnMetros unidad="m">293</distanciaTramoEnMetros>
+            <coordenadaFinalTramo>
+                <latitudTramo>14.957495100700</latitudTramo>
+                <longitudTramo>103.087110607607</longitudTramo>
+                <altitudTramo>179.6881818</altitudTramo>
+            </coordenadaFinalTramo>
+            <numeroSectorCircuito>3</numeroSectorCircuito>
+        </tramo>
+
+        <tramo>
+            <distanciaTramoEnMetros unidad="m">271</distanciaTramoEnMetros>
+            <coordenadaFinalTramo>
+                <latitudTramo>14.958571288214</latitudTramo>
+                <longitudTramo>103.084616255649</longitudTramo>
+                <altitudTramo>179.041518</altitudTramo>
+            </coordenadaFinalTramo>
+            <numeroSectorCircuito>3</numeroSectorCircuito>
+        </tramo>
+
+        <tramo>
+            <distanciaTramoEnMetros unidad="m">26</distanciaTramoEnMetros>
+            <coordenadaFinalTramo>
+                <latitudTramo>14.959591346960</latitudTramo>
+                <longitudTramo>103.082322376223</longitudTramo>
+                <altitudTramo>172.549672</altitudTramo>
+            </coordenadaFinalTramo>
+            <numeroSectorCircuito>3</numeroSectorCircuito>
+        </tramo>
+
+        <tramo>
+            <distanciaTramoEnMetros unidad="m">647</distanciaTramoEnMetros>
+            <coordenadaFinalTramo>
+                <latitudTramo>14.959809061928</latitudTramo>
+                <longitudTramo>103.082229842113</longitudTramo>
+                <altitudTramo>168.969906</altitudTramo>
+            </coordenadaFinalTramo>
+            <numeroSectorCircuito>3</numeroSectorCircuito>
+        </tramo>
+
+        <tramo>
+            <distanciaTramoEnMetros unidad="m">381</distanciaTramoEnMetros>
+            <coordenadaFinalTramo>
+                <latitudTramo>14.965110084030</latitudTramo>
+                <longitudTramo>103.083534137716</longitudTramo>
+                <altitudTramo>166.2024755</altitudTramo>
+            </coordenadaFinalTramo>
+            <numeroSectorCircuito>2</numeroSectorCircuito>
+        </tramo>
+
+        <tramo>
+            <distanciaTramoEnMetros unidad="m">43</distanciaTramoEnMetros>
+            <coordenadaFinalTramo>
+                <latitudTramo>14.968487303533</latitudTramo>
+                <longitudTramo>103.083960277211</longitudTramo>
+                <altitudTramo>164.66966</altitudTramo>
+            </coordenadaFinalTramo>
+            <numeroSectorCircuito>2</numeroSectorCircuito>
+        </tramo>
+
+        <tramo>
+            <distanciaTramoEnMetros unidad="m">40</distanciaTramoEnMetros>
+            <coordenadaFinalTramo>
+                <latitudTramo>14.968691923019</latitudTramo>
+                <longitudTramo>103.084233331109</longitudTramo>
+                <altitudTramo>165.63053</altitudTramo>
+            </coordenadaFinalTramo>
+            <numeroSectorCircuito>2</numeroSectorCircuito>
+        </tramo>
+
+        <tramo>
+            <distanciaTramoEnMetros unidad="m">46</distanciaTramoEnMetros>
+            <coordenadaFinalTramo>
+                <latitudTramo>14.968611228110</latitudTramo>
+                <longitudTramo>103.084602721665</longitudTramo>
+                <altitudTramo>178.05641</altitudTramo>
+            </coordenadaFinalTramo>
+            <numeroSectorCircuito>2</numeroSectorCircuito>
+        </tramo>
+
+        <tramo>
+            <distanciaTramoEnMetros unidad="m">786</distanciaTramoEnMetros>
+            <coordenadaFinalTramo>
+                <latitudTramo>14.968218764952</latitudTramo>
+                <longitudTramo>103.084774952947</longitudTramo>
+                <altitudTramo>178.9836430</altitudTramo>
+            </coordenadaFinalTramo>
+            <numeroSectorCircuito>2</numeroSectorCircuito>
+        </tramo>
+
+        <tramo>
+            <distanciaTramoEnMetros unidad="m">59</distanciaTramoEnMetros>
+            <coordenadaFinalTramo>
+                <latitudTramo>14.961148963835</latitudTramo>
+                <longitudTramo>103.083681120646</longitudTramo>
+                <altitudTramo>176.8210109</altitudTramo>
+            </coordenadaFinalTramo>
+            <numeroSectorCircuito>2</numeroSectorCircuito>
+        </tramo>
+
+        <tramo>
+            <distanciaTramoEnMetros unidad="m">351</distanciaTramoEnMetros>
+            <coordenadaFinalTramo>
+                <latitudTramo>14.960627073959</latitudTramo>
+                <longitudTramo>103.083806406613</longitudTramo>
+                <altitudTramo>178.0563813</altitudTramo>
+            </coordenadaFinalTramo>
+            <numeroSectorCircuito>2</numeroSectorCircuito>
+        </tramo>
+
+        <tramo>
+            <distanciaTramoEnMetros unidad="m">52</distanciaTramoEnMetros>
+            <coordenadaFinalTramo>
+                <latitudTramo>14.958936606635</latitudTramo>
+                <longitudTramo>103.085530950445</longitudTramo>
+                <altitudTramo>181.5399416</altitudTramo>
+            </coordenadaFinalTramo>
+            <numeroSectorCircuito>2</numeroSectorCircuito>
+        </tramo>
+
+        <tramo>
+            <distanciaTramoEnMetros unidad="m">90</distanciaTramoEnMetros>
+            <coordenadaFinalTramo>
+                <latitudTramo>14.959009847438</latitudTramo>
+                <longitudTramo>103.085896254810</longitudTramo>
+                <altitudTramo>179.0861206</altitudTramo>
+            </coordenadaFinalTramo>
+            <numeroSectorCircuito>2</numeroSectorCircuito>
+        </tramo>
+
+        <tramo>
+            <distanciaTramoEnMetros unidad="m">54</distanciaTramoEnMetros>
+            <coordenadaFinalTramo>
+                <latitudTramo>14.959785302632</latitudTramo>
+                <longitudTramo>103.086232349590</longitudTramo>
+                <altitudTramo>178.0707319</altitudTramo>
+            </coordenadaFinalTramo>
+            <numeroSectorCircuito>2</numeroSectorCircuito>
+        </tramo>
+
+        <tramo>
+            <distanciaTramoEnMetros unidad="m">34</distanciaTramoEnMetros>
+            <coordenadaFinalTramo>
+                <latitudTramo>14.960232290514</latitudTramo>
+                <longitudTramo>103.086122445756</longitudTramo>
+                <altitudTramo>180.2611366</altitudTramo>
+            </coordenadaFinalTramo>
+            <numeroSectorCircuito>1</numeroSectorCircuito>
+        </tramo>
+
+        <tramo>
+            <distanciaTramoEnMetros unidad="m">110</distanciaTramoEnMetros>
+            <coordenadaFinalTramo>
+                <latitudTramo>14.960466220569</latitudTramo>
+                <longitudTramo>103.085903088607</longitudTramo>
+                <altitudTramo>178.4318513</altitudTramo>
+            </coordenadaFinalTramo>
+            <numeroSectorCircuito>1</numeroSectorCircuito>
+        </tramo>
+
+        <tramo>
+            <distanciaTramoEnMetros unidad="m">78</distanciaTramoEnMetros>
+            <coordenadaFinalTramo>
+                <latitudTramo>14.960936326782</latitudTramo>
+                <longitudTramo>103.084964806131</longitudTramo>
+                <altitudTramo>174.8305125</altitudTramo>
+            </coordenadaFinalTramo>
+            <numeroSectorCircuito>1</numeroSectorCircuito>
+        </tramo>
+
+        <tramo>
+            <distanciaTramoEnMetros unidad="m">304</distanciaTramoEnMetros>
+            <coordenadaFinalTramo>
+                <latitudTramo>14.961544967372</latitudTramo>
+                <longitudTramo>103.084662027232</longitudTramo>
+                <altitudTramo>174.34922459</altitudTramo>
+            </coordenadaFinalTramo>
+            <numeroSectorCircuito>1</numeroSectorCircuito>
+        </tramo>
+
+        <tramo>
+            <distanciaTramoEnMetros unidad="m">63</distanciaTramoEnMetros>
+            <coordenadaFinalTramo>
+                <latitudTramo>14.964283987851</latitudTramo>
+                <longitudTramo>103.085021159237</longitudTramo>
+                <altitudTramo>174.9116705</altitudTramo>
+            </coordenadaFinalTramo>
+            <numeroSectorCircuito>1</numeroSectorCircuito>
+        </tramo>
+
+        <tramo>
+            <distanciaTramoEnMetros unidad="m">151</distanciaTramoEnMetros>
+            <coordenadaFinalTramo>
+                <latitudTramo>14.964456958873</latitudTramo>
+                <longitudTramo>103.085265106424</longitudTramo>
+                <altitudTramo>174.1404816</altitudTramo>
+            </coordenadaFinalTramo>
+            <numeroSectorCircuito>1</numeroSectorCircuito>
+        </tramo>
+
+        <tramo>
+            <distanciaTramoEnMetros unidad="m">35</distanciaTramoEnMetros>
+            <coordenadaFinalTramo>
+                <latitudTramo>14.964660341781</latitudTramo>
+                <longitudTramo>103.086606399369</longitudTramo>
+                <altitudTramo>174.1258364</altitudTramo>
+            </coordenadaFinalTramo>
+            <numeroSectorCircuito>1</numeroSectorCircuito>
+        </tramo>
+
+        <tramo>
+            <distanciaTramoEnMetros unidad="m">35</distanciaTramoEnMetros>
+            <coordenadaFinalTramo>
+                <latitudTramo>14.964565950894</latitudTramo>
+                <longitudTramo>103.086900950433</longitudTramo>
+                <altitudTramo>174.8860901</altitudTramo>
+            </coordenadaFinalTramo>
+            <numeroSectorCircuito>1</numeroSectorCircuito>
+        </tramo>
+
+        <tramo>
+            <distanciaTramoEnMetros unidad="m">43</distanciaTramoEnMetros>
+            <coordenadaFinalTramo>
+                <latitudTramo>14.964330072942</latitudTramo>
+                <longitudTramo>103.087062329064</longitudTramo>
+                <altitudTramo>174.0072870</altitudTramo>
+            </coordenadaFinalTramo>
+            <numeroSectorCircuito>1</numeroSectorCircuito>
+        </tramo>
+
+        <tramo>
+            <distanciaTramoEnMetros unidad="m">99</distanciaTramoEnMetros>
+            <coordenadaFinalTramo>
+                <latitudTramo>14.963953224315</latitudTramo>
+                <longitudTramo>103.087047060287</longitudTramo>
+                <altitudTramo>177.1668092</altitudTramo>
+            </coordenadaFinalTramo>
+            <numeroSectorCircuito>1</numeroSectorCircuito>
+        </tramo>
+
+        <tramo>
+            <distanciaTramoEnMetros unidad="m">58</distanciaTramoEnMetros>
+            <coordenadaFinalTramo>
+                <latitudTramo>14.963285656500</latitudTramo>
+                <longitudTramo>103.086455914044</longitudTramo>
+                <altitudTramo>177.6654112</altitudTramo>
+            </coordenadaFinalTramo>
+            <numeroSectorCircuito>1</numeroSectorCircuito>
+        </tramo>
+
+        <tramo>
+            <distanciaTramoEnMetros unidad="m">78</distanciaTramoEnMetros>
+            <coordenadaFinalTramo>
+                <latitudTramo>14.962775587296</latitudTramo>
+                <longitudTramo>103.086349311581</longitudTramo>
+                <altitudTramo>177.747401</altitudTramo>
+            </coordenadaFinalTramo>
+            <numeroSectorCircuito>1</numeroSectorCircuito>
+        </tramo>
+
+        <tramo>
+            <distanciaTramoEnMetros unidad="m">77</distanciaTramoEnMetros>
+            <coordenadaFinalTramo>
+                <latitudTramo>14.962117453572</latitudTramo>
+                <longitudTramo>103.086612563198</longitudTramo>
+                <altitudTramo>181.0612448</altitudTramo>
+            </coordenadaFinalTramo>
+            <numeroSectorCircuito>1</numeroSectorCircuito>
+        </tramo>
+
+        <tramo>
+            <distanciaTramoEnMetros unidad="m">206</distanciaTramoEnMetros>
+            <coordenadaFinalTramo>
+                <latitudTramo>14.961489579321</latitudTramo>
+                <longitudTramo>103.086917116508</longitudTramo>
+                <altitudTramo>179.2969613</altitudTramo>
+            </coordenadaFinalTramo>
+            <numeroSectorCircuito>1</numeroSectorCircuito>
+        </tramo>
+
+        <tramo>
+            <distanciaTramoEnMetros unidad="m">299</distanciaTramoEnMetros>
+            <coordenadaFinalTramo>
+                <latitudTramo>14.959637688247</latitudTramo>
+                <longitudTramo>103.087000912275</longitudTramo>
+                <altitudTramo>177.6153030</altitudTramo>
+            </coordenadaFinalTramo>
+            <numeroSectorCircuito>1</numeroSectorCircuito>
+        </tramo>
+
+        <tramo>
+            <distanciaTramoEnMetros unidad="m">299</distanciaTramoEnMetros>
+            <coordenadaFinalTramo>
+                <latitudTramo>14.9574951</latitudTramo>
+                <longitudTramo>103.0871106</longitudTramo>
+                <altitudTramo>180.4102647</altitudTramo>
+            </coordenadaFinalTramo>
+            <numeroSectorCircuito>1</numeroSectorCircuito>
+        </tramo>
+    </tramos>
+
+    <vencedorCarrera>
+
+        <nombreVencedor>Marc Márquez (Ducati Lenovo Team)</nombreVencedor>
+
+        <tiempoVencedor>PT39M37.244S</tiempoVencedor>
+
+
+    </vencedorCarrera>
+
+    <clasificados>
+
+        <clasificado posicion="1">Marc Márquez</clasificado>
+        <clasificado posicion="2">Álex Márquez</clasificado>
+        <clasificado posicion="3">Francesco Bagnaia</clasificado>
+    </clasificados>
+
+</circuito>

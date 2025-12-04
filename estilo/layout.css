@@ -1,0 +1,239 @@
+/* Richard Roque Del Rio - UO302698 */
+
+/* ====================================================== */
+/* Especificidad: 001 */
+/* ====================================================== */
+header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/* ====================================================== */
+/* Especificidad: 002 */
+/* ====================================================== */
+header h1 {
+    flex: 0 0 100%;
+}
+
+/* ====================================================== */
+/* Especificidad: 002 */
+/* ====================================================== */
+header nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 100%;
+    justify-content: flex-start;
+    gap: 0.9rem; /* medida relativa */
+}
+
+/* ====================================================== */
+/* Especificidad: 003 */
+/* ====================================================== */
+header nav a {
+    display: flex;
+}
+
+/* ====================================================== */
+/* Especificidad: 002 (section > div) */
+/* Mapa dinámico del circuito */
+/* ====================================================== */
+main section:nth-of-type(6) > div {
+    width: 100%;       /* medida relativa */
+    height: 60vh;       /* medida relativa */
+    border: 0.15rem solid #333;
+    margin-top: 1rem;
+}
+
+/* ====================================================== */
+/* Redefinición mediante @media-queries */
+/* Propiedades redefinidas: height */
+/* ====================================================== */
+@media (max-width: 50em) {
+
+    /* ====================================================== */
+    /* Especificidad: 002 (section > div) */
+    /* Redefinición de height para pantallas medias */
+    /* ====================================================== */
+    main section:nth-of-type(6) > div {
+        height: 50vh; /* Redefinición */
+    }
+}
+
+/* ====================================================== */
+/* Redefinición mediante @media-queries */
+/* Propiedades redefinidas: flex-direction, height */
+/* ====================================================== */
+@media (max-width: 40em) {
+
+    /* ====================================================== */
+    /* Especificidad: 002 (section > div) */
+    /* Redefinición adicional de height para móviles */
+    /* ====================================================== */
+    main section:nth-of-type(6) > div {
+        height: 20em; /* Redefinición */
+    }
+
+    /* ====================================================== */
+    /* Especificidad: 002 */
+    /* ====================================================== */
+    header h1 {
+        align-self: flex-start;
+    }
+
+    /* ====================================================== */
+    /* Especificidad: 001 */
+    /* ====================================================== */
+    nav {
+        flex-direction: column; /* Redefinición */
+        align-items: stretch;
+        justify-content: flex-start;
+    }
+
+    /* ====================================================== */
+    /* Especificidad: 002 */
+    /* ====================================================== */
+    nav a {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    /* ====================================================== */
+    /* Ocultar migas de pan en móviles */
+    /* Especificidad: 002 */
+    /* ====================================================== */
+    main > p:first-of-type {
+        display: none;
+    }
+
+    /* ====================================================== */
+    /* Especificidad: 001 */
+    /* ====================================================== */
+    video, audio {
+        width: 100%;
+        height: auto;
+    }
+}
+/* Richard Roque Del Rio - UO302698 */
+
+/* ====================================================== */
+/* Especificidad: 001 */
+/* ====================================================== */
+header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/* ====================================================== */
+/* Especificidad: 002 */
+/* ====================================================== */
+header h1 {
+    flex: 0 0 100%;
+}
+
+/* ====================================================== */
+/* Especificidad: 002 */
+/* ====================================================== */
+header nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 100%;
+    justify-content: flex-start;
+    gap: 0.9rem;
+    /* medida relativa */
+}
+
+/* ====================================================== */
+/* Especificidad: 003 */
+/* ====================================================== */
+header nav a {
+    display: flex;
+}
+
+/* ====================================================== */
+/* Especificidad: 002 (section > div) */
+/* Mapa dinámico del circuito */
+/* ====================================================== */
+main section:nth-of-type(6)>div {
+    width: 100%;
+    /* medida relativa */
+    height: 60vh;
+    /* medida relativa */
+    border: 0.15rem solid #333;
+    margin-top: 1rem;
+}
+
+/* ====================================================== */
+/* Redefinición mediante @media-queries */
+/* Propiedades redefinidas: height */
+/* ====================================================== */
+@media (max-width: 50em) {
+
+    /* ====================================================== */
+    /* Especificidad: 002 (section > div) */
+    /* Redefinición de height para pantallas medias */
+    /* ====================================================== */
+    main section:nth-of-type(6)>div {
+        height: 50vh;
+        /* Redefinición */
+    }
+}
+
+/* ====================================================== */
+/* Redefinición mediante @media-queries */
+/* Propiedades redefinidas: flex-direction, height */
+/* ====================================================== */
+@media (max-width: 40em) {
+
+    /* ====================================================== */
+    /* Especificidad: 002 (section > div) */
+    /* Redefinición adicional de height para móviles */
+    /* ====================================================== */
+    main section:nth-of-type(6)>div {
+        height: 20em;
+        /* Redefinición */
+    }
+
+    /* ====================================================== */
+    /* Especificidad: 002 */
+    /* ====================================================== */
+    header h1 {
+        align-self: flex-start;
+    }
+
+    /* ====================================================== */
+    /* Especificidad: 001 */
+    /* ====================================================== */
+    nav {
+        flex-direction: column;
+        /* Redefinición */
+        align-items: stretch;
+        justify-content: flex-start;
+    }
+
+    /* ====================================================== */
+    /* Especificidad: 002 */
+    /* ====================================================== */
+    nav a {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    /* ====================================================== */
+    /* Ocultar migas de pan en móviles */
+    /* Especificidad: 002 */
+    /* ====================================================== */
+    main>p:first-of-type {
+        display: none;
+    }
+
+    /* ====================================================== */
+    /* Especificidad: 001 */
+    /* ====================================================== */
+    video,
+    audio {
+        width: 100%;
+        height: auto;
+    }
+}
